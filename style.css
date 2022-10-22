@@ -1,0 +1,141 @@
+html {
+    height: 100%;
+    font-family: sans-serif;
+    background-image: url(2425935.jpg);
+    background-position:  top ;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    height: 80px;
+}
+.header::before {
+    content: "";
+    position :absolute;
+    top: 0;
+    left: 0 ;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    z-index: 3;
+}
+.header-body {
+    position: relative;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0 10px;
+}
+.header__list {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    padding-inline-start: 0px;
+
+
+}
+.header-menu {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+.header__list li {
+    margin: 0 auto;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #0072BB;
+}
+.header-burger.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+}
+.header-burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+}
+.header-burger.active span {
+    transform: scale(0);
+}
+@media (max-width:1024px) {
+   .header {
+    height: 40px;
+    padding-top: 20px;
+   }
+    .header-burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+    }
+    .header__list{
+       margin: 10px auto;
+max-width: 100px;
+    }
+    .header-burger:before, .header-burger:after {
+        content: "";
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header-burger:before {
+        top: 0;
+        transition: all 0.5s ease 0s;
+    }
+    .header-burger:after {
+        bottom: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header-burger span {
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        background-color: #fff;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .header-menu {
+        position: fixed;
+        top: -150%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #81E4DA;
+        padding-top: 70px;
+        transition: all 0.9s ease 0s;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .header-menu.active {
+        top: 0;
+    }
+    .header__list {
+      display: block;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-inline-start: 15px;
+      font-size: 25px;
+    }
+    .header__list li {
+        margin-bottom: 20px;
+    }
+}
