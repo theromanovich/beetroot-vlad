@@ -95,7 +95,6 @@
 @media (max-width: 767px) {
   .blog-section__title-wrapper {
     font-family: "Lato", sans-serif;
-    width: 390px;
     max-width: 100%;
     display: flex;
     display: inline-block;
@@ -220,14 +219,15 @@
   .blog-section__upper-card-wrapper {
     display: flex;
     justify-content: center;
-    width: 800px;
+    width: 768px;
     max-width: 100%;
     align-items: center;
     margin: 0 auto;
+    padding: 0px;
   }
   .blog-section__down-card-wrapper {
     display: flex;
-    width: 800px;
+    width: 768px;
     max-width: 100%;
     display: flex;
     margin: 0 auto;
@@ -279,7 +279,7 @@
     width: 400px;
   }
   .upper-card__image {
-    width: 400px;
+    width: 380px;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -288,7 +288,7 @@
     width: 4000px;
   }
   .down-card__image {
-    width: 400px;
+    width: 380px;
     -o-object-fit: cover;
        object-fit: cover;
   }

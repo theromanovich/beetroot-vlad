@@ -191,34 +191,32 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
   }
   .popular-cards__image {
     margin-left: 10px;
   }
   .popular-cards__left-card {
-    max-width: 400px;
+    max-width: 375px;
     margin-right: 10px;
   }
   .popular-cards__left-image {
-    max-width: 400px;
+    max-width: 375px;
   }
   .popular-cards__right-card {
-    max-width: 400px;
+    max-width: 375px;
   }
   .popular-card__left {
-    width: 400px;
+    width: 375px;
   }
   .popular-card__right {
-    width: 400px;
+    width: 375px;
   }
   .popular-card__left-card {
-    max-width: 400px;
-    width: 400px;
+    max-width: 375px;
+    width: 375px;
     margin-right: 10px;
   }
   .popular-card__right-card {
-    width: 400px;
+    width: 375px;
   }
 }/*# sourceMappingURL=popular-section.css.map */

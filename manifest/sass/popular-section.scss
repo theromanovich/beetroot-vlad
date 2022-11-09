@@ -213,37 +213,37 @@
         display: flex;
         justify-content: center;
         margin-top: 50px;
-        padding-left: 10px;
-        padding-right: 10px;
+        
+       
     &__image {
         margin-left: 10px;
     }
     &__left-card {
-        max-width: 400px;
+        max-width: 375px;
         margin-right: 10px;
     }
     &__left-image {
-        max-width: 400px;
+        max-width: 375px;
     }
     &__right-card {
-        max-width: 400px;
+        max-width: 375px;
     }
 }
 
 .popular-card {
     &__left {
-        width: 400px;
+        width: 375px;
     }
     &__right {
-        width: 400px;
+        width: 375px;
     }
 &__left-card {
-    max-width: 400px;
-    width: 400px;
+    max-width: 375px;
+    width: 375px;
     margin-right: 10px;
 }
 &__right-card {
-    width: 400px;
+    width: 375px;
 }
 }
  }
