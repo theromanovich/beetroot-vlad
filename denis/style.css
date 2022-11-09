@@ -1,0 +1,1031 @@
+.page {
+   
+    max-width: 100%;
+    
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   max-height: 50px;
+}
+.menu__list {
+    text-decoration: none;
+    list-style: none;
+    height: 100%;
+   display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.menu__element {
+    display: inline-block;
+   
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 20px  0px  20px;
+
+}
+
+.section-greyback {
+    margin-top: 0px;
+
+    background-color: #F6F6F6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+ 
+    border-bottom: 1px solid #828282;
+   
+}
+
+.menu__element {
+    max-width: 77px;
+    max-height: 25px;
+  
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    letter-spacing: 0.02em;
+    
+    color: #828282;
+}
+.menu__element__home {
+    max-width: 53px;
+    max-height: 25px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+    
+    letter-spacing: 0.02em;
+    
+   
+    
+    color: #070707;
+}
+
+.menu__element__about {
+max-width: 91px;
+max-height: 25px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+
+
+letter-spacing: 0.02em;
+
+color: #828282;
+
+}
+.menu__element__skills {
+max-width: 44px;
+max-height: 25px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #828282;
+
+
+}
+.menu__element__portfolio {
+
+    max-width: 78px;
+    max-height: 25px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #828282;
+}
+.menu__element__contacts {
+    width: 77px;
+height: 25px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #828282;
+
+
+}
+.main-title {
+    max-width: 500px;
+    max-height: 60px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 65px;
+
+/* Black */
+
+color: #070707;
+    margin-left: 235px;
+    margin-bottom: 50px;
+}
+.main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.section-greyback__subtitle {
+    display: flex;
+    justify-content: center;
+
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+
+
+
+
+color: #070707;
+
+}
+.main-section-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+
+
+/* Black */
+
+color: #070707;
+}
+
+
+.title__skills {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ margin-top: 100px;
+height: 40px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+text-align: center;
+
+/* Black */
+
+color: #070707;
+    
+}
+.program-section__subtitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+height: 24px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+
+/* Black */
+
+color: #070707;
+margin-bottom: 50px;
+}
+.photoshopicon {
+    
+    max-width: 66px;
+    
+    
+}
+.illustratoricon {
+    max-width: 66px;
+ 
+}
+.aftereffectsicon {
+    max-width: 66px;
+
+   
+}
+.figmaicon {
+    max-width: 66px;
+    max-height: 65px;
+   
+}
+.photo-div {
+ 
+    display: flex;
+justify-content: space-around;
+
+margin-right: 50px;
+
+}
+
+.illustrator-div {
+
+    margin-right: 10px;
+    
+}
+.aftereffects-div {
+ 
+margin-right: 10px;
+  
+  
+}
+
+.text-div {
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+.photoshop-text {
+    
+   
+width: 20px;
+text-align: center;
+
+
+width: 66px;
+height: 38px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.02em;
+
+/* text */
+
+color: #828282;
+  
+}
+.illustrator-text {
+    display: flex;
+
+  
+    text-align: center;
+margin-left: 5px;
+    width: 66px;
+height: 38px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.02em;
+
+/* text */
+
+color: #828282;
+
+}
+.aftereffects-text {
+    display: flex;
+
+    text-align: center;
+  
+  
+
+    width: 100px;
+height: 38px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.02em;
+
+/* text */
+
+color: #828282;
+
+  
+}
+.figma-text {
+    display: flex;
+
+    text-align: center;
+
+
+    width: 66px;
+    height: 19px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    /* text */
+    
+    color: #828282;
+    margin-right: 30px;
+    
+}
+.div-icons {
+    display: flex;
+ justify-content: center;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.div-icons__photoshop {
+display: flex;
+
+}
+.div-icons__illustrator{
+    display: flex;
+}
+.div-icons__illustrator {
+    display: flex;
+}
+.div-icons__figma {
+    display: flex;
+    margin-right: 30px;
+}
+.section-portfolio {
+  
+    background-color:  #F6F6F6;
+}
+.title-portfolio {
+    padding-top: 100px;
+    padding-bottom: 50px;
+height: 40px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+
+text-align: center;
+
+/* Black */
+
+color: #070707;
+
+    text-align: center;
+}
+.fashion-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fashion-text-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+text-decoration-line: underline;
+margin-top: 40px;
+    margin-bottom: 70px;
+
+/* Black */
+
+color: #070707
+}
+.reebok-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reebok-text-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+text-decoration-line: underline;
+margin-top: 40px;
+    margin-bottom: 70px;
+
+/* Black */
+
+color: #070707
+}
+.braun-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.braun-text-div {
+    margin-top: 40px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+text-decoration-line: underline;
+
+/* Black */
+
+color: #070707
+}
+
+
+.footer-section__title {
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+text-align: center;
+
+/* Black */
+
+color: #070707;
+
+}
+
+.footer-text__element {
+   
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+text-align: center;
+
+/* Black */
+
+color: #070707;
+
+}
+.footer-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    background-color: #070707;
+
+    color: white;
+    width: 200px;
+    height: 44px;
+    border-radius: 25px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.1em;
+}
+.footer-icons-div {
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.linkedin-icon {
+    
+   
+width: 50px;
+}
+.instagram-icon {
+   
+    width: 50px;
+}
+.behance-icon {
+   
+    width: 50px;
+}
+.dribbble-icon {
+    
+    width: 50px;
+}
+
+.linkedin-icon-div {
+    margin-top: 40px;
+    width: 50px;
+    margin-right: 50px;
+
+}
+
+.instagram-icon-div {
+    margin-top: 40px;
+    width: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.behance-icon-div {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 50px;
+ 
+}
+.dribble-icon-div {
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 50px;
+ 
+}
+.downtext-div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.downtext {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+
+color: #828282;
+
+}
+@media (max-width:1024px) and  (min-width:769px)  {
+    html {
+ 
+  
+        overflow-x:hidden;
+       }
+        .page {
+           
+            max-width: 100%;
+          
+        }
+        .menu {
+            display: flex;
+          
+           max-height: 50px;
+           width: 100%;
+        }
+        .menu__list {
+            max-height: 50px;
+            width: 100%;
+            padding: 0;
+         
+        }
+        .main-title {
+
+
+            font-weight: 400;
+            font-size: 27px;
+            line-height: 25px;
+            
+         
+            margin: auto 10px;
+        
+              
+            }
+        
+        .denis-image {
+            min-height: 250px;
+            max-height: 300px;
+            width: 100%;
+            object-fit: cover;
+            }
+            .fashionimg {
+                min-height: 250px;
+                max-height: 300px;
+              width: 100%;
+              object-fit: cover;
+            }
+            .reebokimg {
+                min-height: 250px;
+                max-height: 300px;
+              width: 100%;
+              object-fit: cover;
+            }
+            .braunimg {
+                min-height: 250px;
+                max-height: 300px;
+              width: 100%;
+              object-fit: cover;
+            }
+       
+}
+@media  (max-width:768px)  {
+  
+
+   html {
+ 
+  
+    overflow-x:hidden;
+   }
+    .page {
+       
+        max-width: 100%;
+      
+    }
+    .menu {
+        display: flex;
+      
+       max-height: 50px;
+       width: 100%;
+    }
+    .menu__list {
+        max-height: 50px;
+        width: 100%;
+        padding: 0;
+     
+    }
+   
+    .menu__element {
+        display: inline-block;
+       
+        list-style: none;
+        text-decoration: none;
+        padding: 0px 5px;
+    
+    }
+    
+ 
+    
+    .menu__element {
+        max-width: 77px;
+        max-height: 25px;
+      
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        /* identical to box height */
+        
+        letter-spacing: 0.02em;
+        
+        color: #828282;
+      
+    }
+    .menu__element__home {
+        
+        max-height: 25px;
+        
+    
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    
+        
+  
+   
+    }
+    
+     .menu__element__about {
+     
+        max-height: 25px;
+    
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+ 
+    
+
+    
+    }
+    .menu__element__skills {
+
+        max-height: 25px;
+        
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        /* identical to box height */
+        
+        letter-spacing: 0.02em;
+        
+        color: #828282;
+    
+    
+    }
+    .menu__element__portfolio {
+    
+    
+        max-height: 25px;
+        
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+       
+        
+        text-align: center;
+        letter-spacing: 0.02em;
+        
+        color: #828282;
+    }
+    .menu__element__contacts {
+      
+         max-height: 25px;
+        
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+       
+        
+        letter-spacing: 0.02em;
+        
+        color: #828282;
+    
+    
+    }
+    .section-greyback {
+        margin-top: 0px;
+    
+        background-color: #F6F6F6;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+     
+        border-bottom: 1px solid #828282;
+       
+    }
+    .main-title {
+
+
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 25px;
+    
+ 
+    margin: auto 10px;
+
+      
+    }
+    .main-title__element {
+        max-width: 250px;
+    }
+   
+    .denis-image {
+    min-height: 250px;
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    }
+    .fashionimg {
+        min-height: 250px;
+        max-height: 300px;
+      width: 100%;
+    }
+    .reebokimg {
+        min-height: 250px;
+        max-height: 300px;
+      width: 100%;
+      object-fit: cover;
+    }
+    .braunimg {
+        min-height: 250px;
+        max-height: 300px;
+      width: 100%;
+      object-fit: cover;
+    }
+    .linkedin-icon-div {
+        margin-top: 40px;
+        width: 50px;
+        margin-right: 5px;
+    
+    }
+    
+    .instagram-icon-div {
+        margin-top: 40px;
+        width: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .behance-icon-div {
+        margin-top: 40px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 50px;
+     
+    }
+    .dribble-icon-div {
+        margin-top: 40px;
+        margin-left: 5px;
+        width: 50px;
+     
+    
+    }
+    .section-greyback__subtitle {
+        display: flex;
+        justify-content: center;
+    
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 46px;
+    
+    
+    
+    
+    color: #070707;
+    
+    }
+    .main-section-text {
+      
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+   
+    }
+    
+    
+    .title__skills {
+ 
+     margin-top: 50px;
+    height: 40px;
+    
+  
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 46px;
+   
+        
+    }
+    .program-section__subtitle {
+
+      
+    height: 24px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+ 
+    margin-bottom: 50px;
+    }
+    .photoshop-div {
+        width: 66px;
+        height: 66px;
+    }
+    .illustrator-div {
+        width: 66px;
+        height: 66px;
+    }
+    .aftereffects-div {
+        width: 66px;
+        height: 66px;
+    }
+    .figma-div {
+        width: 66px;
+        height: 66px;
+    }
+    .photo-div {
+ 
+        display: flex;
+    justify-content: space-around;
+ 
+
+    }
+    .photoshopicon {
+      margin-left: 5px;
+      
+    }
+    .illustratoricon {
+        margin-left: 20px;
+
+    }
+    .aftereffectsicon {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .figmaicon {
+      margin-left: 60px;
+    }
+    .photoshop-text {
+     margin-left: 5px;
+    }
+    .illustrator-text {
+margin-left: 25px;
+    }
+    .aftereffects-text {
+margin-left: 20px;
+margin-right: 25px;
+    }
+    .figma-text {
+    margin-right: 0px;
+    }
+ 
+    .div-icons__photoshop {
+display: flex;
+flex-direction: column;
+
+
+    }
+    .div-icons__illustrator {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    .div-icons__aftereffects {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    .div-icons__figma {
+        display: flex;
+        flex-direction: column;
+  margin-right: 0;
+    }
+
+    .text-div {
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
+    .footer-section__title {
+        font-size: 30px;
+    }
+
+}
+
