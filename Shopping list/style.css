@@ -13,26 +13,27 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  font-family: "Roboto";
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 32px;
   display: flex;
   align-items: center;
   text-align: center;
   color: #ff8984;
 }
-.page-header {
+.header {
+
   background-color: #4a4f56;
+  width: 100%;
+  min-height: 150px;
 }
 .subtitle {
   display: flex;
   text-align: center;
   justify-content: center;
-  font-family: "Roboto";
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   margin-bottom: 10px;
@@ -45,67 +46,14 @@
 }
 .container {
   display: flex;
-  margin: 0px auto 0px auto;
-  background-color: #3b3f45;
-  width: 50%;
+  margin: 0px auto;
+  min-width: 50%;
+  width: 100%;
+  max-width: 700px;
   background-color: #88839e;
   display: block;
   justify-content: center;
   align-items: center;
-}
-@media (max-width:768px) {
-  .page {
-    min-height: 605px;
-    min-height: 300px;
-  }
-  .container {
-    width: 85%;
-  }
-  .page-header {
-width: 95%;
-margin: 0 auto;
-min-height:  150px;
-  }
- .title {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
-  margin-bottom: 8px;
-  margin-bottom: 0px;
-}
-.button {
-  min-height: 30px;
-}
-.first-span {
-  line-height: 20px;
-  min-width: 50px;
-  font-size: 15px;
-}
-.second-span {
-  font-size: 10px;
-}
-.button {
-margin: 0 auto;
-  
-}
-@media (min-width:768px) and (max-width:1024px) {
-  .container {
-    min-width: 85%;
-   
-  }
-  .title {
-    font-size: 25px;
-  }
-  .first-span {
-    line-height: 20px;
-    min-width: 50px;
-    font-size: 20px;
-  }
-  
-  .second-span {
-    font-size: 15px;
-  }
-}
 }
 .first-subtext {
   display: block;
@@ -135,9 +83,8 @@ margin: 0 auto;
 .list {
   padding-left: 0px;
 }
-.list-element {
-  font-family: "Roboto";
-  font-family: sans-serif;
+.list__element {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -150,61 +97,66 @@ margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.list-element:nth-child(odd) {
+.list__element:nth-child(odd) {
   background-color: #88839e;
 }
-.list-element:nth-child(even) {
+.list__element:nth-child(even) {
   background-color: #625e77;
 }
-.list-element:nth-child(odd) {
+.list__element:nth-child(odd) {
   border-top: 3px solid #88839e;
   border-bottom: 3px solid #88839e;
 }
-.list-element:nth-child(even) {
+.list__element:nth-child(even) {
   border-top: 3px solid #625e77;
   border-bottom: 3px solid #625e77;
 }
-.list-element:hover {
+.list__element:hover {
   border-top: 3px solid #fff;
   border-bottom: 3px solid #fff;
   background-color: #625e77;
 }
-.list-element:active {
+.list__element:active {
   background-color: aquamarine;
 }
 input[type="checkbox"]:checked ~ span {
   color: #9b96ac;
   text-decoration: line-through;
 }
+.first-span {
+  line-height: 20px;
+  min-width: 50px;
+  font-size: 15px;
+}
 .second-span {
-  font-size: 12px;
+  font-size: 10px;
 }
 .first-subtext {
   display: block;
-  transform: translate(1px, -8px);
+  transform: translate(1px, -7px);
   height: 5px;
 }
 .second-subtext {
   display: block;
-  transform: translate(1px, -8px);
+  transform: translate(1px, -7px);
   height: 5px;
 }
 .third-subtext {
   display: block;
-  transform: translate(1px, -8px);
+  transform: translate(1px, -7px);
   height: 5px;
 }
 .fourth-subtext {
   display: block;
-  transform: translate(1px, -8px);
+  transform: translate(1px, -7px);
   height: 5px;
 }
 .sixth-subtext {
   display: block;
-  transform: translate(1px, -8px);
+  transform: translate(1px, -7px);
   height: 5px;
 }
-.button-div {
+.button-wrapper{
   display: flex;
   margin: 45px auto 0px auto;
   max-height: 40px;
@@ -218,12 +170,13 @@ input[type="checkbox"]:checked ~ span {
   text-align: center;
   justify-content: center;
   width: 50%;
+  min-height: 30px;
   height: 45px;
   color: #ff8984;
   background-color: #4a4f56;
   border: none;
 }
-.button-link {
+.button-text {
   text-decoration: none;
   color: #ff8984;
   font-family: sans-serif;
@@ -251,4 +204,7 @@ input[type="checkbox"]:checked ~ span {
  background-image: url(Vector.svg);
  background-repeat: no-repeat;
  background-position: center center;
+}
+.wrapper {
+  padding: 0 15px;
 }
