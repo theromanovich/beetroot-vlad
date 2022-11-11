@@ -1,0 +1,148 @@
+.bg-section--grey__wrapper {
+  width: 100%;
+  background-image: url(../img/BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 67vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.bg-section--grey__title {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  width: 375px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.bg-section--grey__image {
+  width: 440px;
+  height: 280px;
+}
+.bg-section--grey__card {
+  display: flex;
+  padding: 0 30px;
+  justify-content: center;
+}
+
+.card__text {
+  width: 640px;
+  max-width: 100%;
+}
+
+.grey-paragraph {
+  width: 640px;
+  max-width: 100%;
+}
+
+.review-photo {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.quote-icon {
+  margin-right: 5px;
+}
+
+figcaption {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.card__wrapper {
+  box-sizing: border-box;
+  background-color: #333333;
+  max-width: 885px;
+  width: 760px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .bg-section--grey__wrapper {
+    background-position: center;
+    height: 76vh;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+  }
+  .bg-section--grey__title {
+    width: 375px;
+    margin: 60px auto;
+  }
+  .bg-section--grey__card {
+    display: block;
+    padding: 0;
+  }
+  .bg-section--grey__card-image {
+    display: flex;
+    justify-content: center;
+  }
+  .bg-section--grey .review-photo {
+    height: 336px;
+    width: 720px;
+    display: flex;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .card__wrapper {
+    max-width: 720px;
+    max-height: 308px;
+    padding-left: 20px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .card__text {
+    width: 768px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .bg-section--grey__wrapper {
+    background-position: center;
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+  }
+  .bg-section--grey__title {
+    width: 395px;
+    max-width: 100%;
+    margin: 30px auto;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .bg-section--grey__card {
+    display: block;
+    padding: 0;
+  }
+  .bg-section--grey__card-image {
+    display: flex;
+    justify-content: center;
+  }
+  .bg-section--grey .review-photo {
+    height: 336px;
+    width: 720px;
+    display: flex;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .card__wrapper {
+    max-width: 100%;
+  }
+  blockquote {
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+            margin-inline-end: 0px;
+  }
+}/*# sourceMappingURL=grey-bg-section.css.map */

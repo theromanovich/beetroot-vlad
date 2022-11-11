@@ -1,0 +1,159 @@
+.container {
+  max-width: 100%;
+  width: 1320px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5373FD;
+}
+.navigation-logo span {
+  display: block;
+  margin: auto auto;
+}
+.navigation-logo {
+  display: flex;
+  justify-content: center;
+}
+.navigation-menu {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}
+.navigation-wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  background-color: #5373FD;
+}
+.navigation-menu li {
+  line-height: 20px;
+  margin-left: 40px;
+}
+.navigation-menu__link {
+  text-decoration: none;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.logo-link {
+  text-decoration: none;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* or 117% */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  /* White */
+  color: #FFFFFF;
+}
+
+.burger {
+  display: none;
+}
+.burger span {
+  background-color: white;
+  height: 2px;
+  width: 40px;
+  margin: 6px auto;
+  transition: 0.2s;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .navigation {
+    display: block;
+    background-color: #5373FD;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .navigation-logo span {
+    display: block;
+    margin: auto auto;
+  }
+  .navigation-menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+  .navigation-wrapper {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    background-color: #5373FD;
+  }
+  .navigation-menu li {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .navigation-menu__link {
+    text-decoration: none;
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+}
+@media (max-width: 767px) {
+  .burger {
+    display: block;
+  }
+  .burger span {
+    background-color: white;
+    height: 2px;
+    width: 40px;
+    display: block;
+    margin: 6px auto;
+    transition: 0.2s;
+  }
+  .navigation {
+    height: 84px;
+  }
+  .navigation-menu {
+    position: fixed;
+    top: 0;
+    right: -200%;
+  }
+  .navigation-menu.active {
+    background-color: #5373FD;
+    right: 0px;
+    top: 50px;
+    width: 100vw;
+    height: 30vh;
+    display: block;
+  }
+  .navigation-menu.active .navigation-menu__item {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .burger.active span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .burger.active span:nth-child(2) {
+    transform: translateY(8px) rotate(45deg);
+    opacity: 0;
+  }
+  .burger.active span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}/*# sourceMappingURL=navigation.css.map */

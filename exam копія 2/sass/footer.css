@@ -1,0 +1,49 @@
+.footer {
+  width: 100%;
+  background-color: #000000;
+}
+.footer-wrapper__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.footer__title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+.footer__subtitle {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  margin-top: 10px;
+  color: #FFFFFF;
+}
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-icon {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.social-icon:hover path {
+  fill: #486BFE;
+}/*# sourceMappingURL=footer.css.map */
