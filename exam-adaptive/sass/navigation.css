@@ -145,6 +145,7 @@
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    margin-left: 0px;
   }
   .burger.active span:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
