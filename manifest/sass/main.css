@@ -1,3 +1,7 @@
+.bg-section-wrapper {
+  display: flex;
+  justify-content: center;
+}
 .bg-section-wrapper__image {
   display: block;
   width: 100%;
@@ -8,6 +12,8 @@
 .bg-section-wrapper__span {
   display: block;
   position: absolute;
+  width: 1200px;
+  max-width: 100%;
   font-family: "Red Hat Display", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -16,7 +22,6 @@
   font-size: 48px;
   line-height: 64px;
   margin-top: 150px;
-  margin-left: 135px;
   z-index: 20;
 }
 
@@ -35,7 +40,6 @@
     font-style: normal;
     font-weight: 600;
     top: 0;
-    left: -120px;
     font-weight: 600;
     font-size: 42px;
     line-height: 64px;
@@ -44,11 +48,11 @@
 }
 @media (min-width: 768px) and (max-width: 1280px) {
   .bg-section-wrapper {
-    width: 1279px;
+    width: 1280px;
     max-width: 100%;
   }
   .bg-section-wrapper__span {
-    margin-left: 20px;
+    margin-left: 0px;
     margin-top: 120px;
   }
 }
@@ -175,6 +179,7 @@
     flex-direction: column-reverse;
     align-items: center;
     margin: 0 auto;
+    box-sizing: border-box;
   }
   .blog-section__down-card-wrapper {
     display: flex;
@@ -189,7 +194,8 @@
     margin-top: 50px;
   }
   .upper-card__text-wrapper {
-    padding: 20px;
+    width: 370px;
+    max-width: 100%;
     margin-right: 0px;
     margin-left: 0px;
   }
@@ -235,12 +241,25 @@
     -o-object-fit: cover;
        object-fit: cover;
   }
+  .left-card {
+    width: 380px;
+    max-width: 100%;
+  }
+  .center-card {
+    width: 380px;
+    max-width: 100%;
+  }
+  .right-card {
+    width: 380px;
+    max-width: 100%;
+  }
   .down-card__image-wrapper {
     max-width: 100%;
     width: 370px;
   }
   .down-card__image {
     width: 370px;
+    max-width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -1203,6 +1222,7 @@
     color: #000000;
     display: block;
     width: 370px;
+    max-width: 100%;
     margin: 0 auto;
   }
   .footer-container__text-number {
@@ -1264,6 +1284,7 @@
     color: #000000;
     display: block;
     width: 370px;
+    max-width: 100%;
     margin: 0 auto;
   }
   .footer-container__text-number {

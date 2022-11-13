@@ -121,6 +121,7 @@
     flex-direction: column-reverse;
     align-items: center;
     margin: 0 auto;
+    box-sizing: border-box;
   }
   .blog-section__down-card-wrapper {
     display: flex;
@@ -135,7 +136,8 @@
     margin-top: 50px;
   }
   .upper-card__text-wrapper {
-    padding: 20px;
+    width: 370px;
+    max-width: 100%;
     margin-right: 0px;
     margin-left: 0px;
   }
@@ -181,12 +183,25 @@
     -o-object-fit: cover;
        object-fit: cover;
   }
+  .left-card {
+    width: 380px;
+    max-width: 100%;
+  }
+  .center-card {
+    width: 380px;
+    max-width: 100%;
+  }
+  .right-card {
+    width: 380px;
+    max-width: 100%;
+  }
   .down-card__image-wrapper {
     max-width: 100%;
     width: 370px;
   }
   .down-card__image {
     width: 370px;
+    max-width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
   }

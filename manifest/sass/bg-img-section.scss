@@ -2,7 +2,8 @@
 
 
 .bg-section-wrapper {
-    
+    display: flex;
+    justify-content: center;
     &__image {
         display: block;
         width: 100%;
@@ -12,6 +13,8 @@
     &__span {
         display: block;
         position: absolute;
+        width: 1200px;
+        max-width: 100%;
         font-family: $primaryFont;
         font-style: normal;
         font-weight: 600;
@@ -20,7 +23,6 @@
         font-size: 48px;
         line-height: 64px;
         margin-top: 150px;
-        margin-left: 135px;
         z-index: 20;
     }
 }
@@ -42,7 +44,6 @@
             font-style: normal;
             font-weight: 600;
             top: 0;
-            left: -120px;
             font-weight: 600;
             font-size: 42px;
             line-height: 64px;
@@ -55,10 +56,10 @@
 
 @media (min-width:768px) and (max-width:1280px) {
     .bg-section-wrapper {
-        width: 1279px;
+        width: 1280px;
         max-width: 100%;
         &__span {
-            margin-left: 20px;
+            margin-left: 0px;
             margin-top: 120px;
         }
     }

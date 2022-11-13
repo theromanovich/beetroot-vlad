@@ -133,6 +133,7 @@
             flex-direction: column-reverse;
             align-items: center;
             margin: 0 auto;
+            box-sizing: border-box;
         }
         &__down-card-wrapper {
             display: flex;
@@ -149,7 +150,9 @@
     }
     .upper-card {
         &__text-wrapper {
-           padding: 20px;
+
+           width: 370px;
+           max-width: 100%;
            margin-right: 0px; 
             margin-left: 0px;
         }
@@ -202,9 +205,21 @@
             width: 100%;
             object-fit: cover;
         }
-
+    
 
     
+    }
+    .left-card {
+        width: 380px;
+        max-width: 100%;
+    }
+    .center-card {
+        width: 380px;
+        max-width: 100%;
+    }
+    .right-card {
+        width: 380px;
+        max-width: 100%;
     }
     .down-card {
 
@@ -214,6 +229,7 @@
         }
         &__image {
             width: 370px;
+            max-width: 100%;
             object-fit: cover;
         }
     }
@@ -348,6 +364,7 @@
             object-fit: cover;
         }
     }
+  
 }
 
  
