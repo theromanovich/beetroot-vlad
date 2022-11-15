@@ -196,6 +196,14 @@
     /* identical to box height, or 143% */
     letter-spacing: 0.1em;
   }
+  .hero-section__input {
+    display: flex;
+    justify-content: center;
+  }
+  .hero-section__input-button__content {
+    width: 115px;
+    margin-right: 1em;
+  }
 }
 .container {
   max-width: 100%;
@@ -923,7 +931,7 @@ figcaption {
 @media (max-width: 1024px) and (min-width: 768px) {
   .bg-section--grey__wrapper {
     background-position: center;
-    height: 76vh;
+    height: 85vh;
     width: 100%;
     display: flex;
     align-items: baseline;
@@ -962,10 +970,10 @@ figcaption {
 @media (max-width: 767px) {
   .bg-section--grey__wrapper {
     background-position: center;
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     display: flex;
-    align-items: baseline;
+    align-items: center;
   }
   .bg-section--grey__title {
     width: 395px;

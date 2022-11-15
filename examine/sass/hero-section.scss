@@ -177,4 +177,15 @@
         
         letter-spacing: 0.1em;
     }
+    .hero-section__input {
+       display: flex;
+       justify-content: center;
+    
+        &-button__content {
+            
+            width: 115px;
+            margin-right: 1em;
+          
+        }
+    }
 }

@@ -196,4 +196,12 @@
     /* identical to box height, or 143% */
     letter-spacing: 0.1em;
   }
+  .hero-section__input {
+    display: flex;
+    justify-content: center;
+  }
+  .hero-section__input-button__content {
+    width: 115px;
+    margin-right: 1em;
+  }
 }/*# sourceMappingURL=hero-section.css.map */
