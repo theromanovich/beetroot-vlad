@@ -72,6 +72,18 @@
 
     
 }
+.hero-section__input {
+ 
+     &-button__content {
+         
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+       
+       
+     }
+ }
 .scrolldown {
     text-decoration: none;
     display: flex;
@@ -185,6 +197,7 @@
             
             width: 115px;
             margin-right: 1em;
+          
           
         }
     }
