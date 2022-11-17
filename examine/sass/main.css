@@ -938,7 +938,7 @@ figcaption {
 @media (max-width: 1024px) and (min-width: 768px) {
   .bg-section--grey__wrapper {
     background-position: center;
-    height: 85vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: baseline;
@@ -955,7 +955,7 @@ figcaption {
     display: flex;
     justify-content: center;
   }
-  .bg-section--grey .review-photo {
+  .review-photo {
     height: 336px;
     width: 720px;
     display: flex;
@@ -999,8 +999,8 @@ figcaption {
     justify-content: center;
   }
   .bg-section--grey .review-photo {
-    height: 336px;
-    width: 720px;
+    height: 100%;
+    width: 100%;
     display: flex;
     -o-object-fit: cover;
        object-fit: cover;

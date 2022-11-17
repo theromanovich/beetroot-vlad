@@ -95,7 +95,7 @@ figcaption {
         &__wrapper {
       
             background-position: center;
-            height: 85vh;
+            height: 100vh;
             width: 100%;
             display: flex;
             align-items: baseline;
@@ -114,12 +114,13 @@ figcaption {
             display: flex;
             justify-content: center;
         }
-        .review-photo {
-            height: 336px;
-            width: 720px;
-            display: flex;
-            object-fit: cover;
-        }
+    
+}
+.review-photo {
+    height: 336px;
+    width: 720px;
+    display: flex;
+    object-fit: cover;
 }
 .card {
 
@@ -167,8 +168,8 @@ figcaption {
             justify-content: center;
         }
         .review-photo {
-            height: 336px;
-            width: 720px;
+            height: 100%;
+            width: 100%;
             display: flex;
             object-fit: cover;
         }
@@ -185,4 +186,5 @@ blockquote {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
 }
